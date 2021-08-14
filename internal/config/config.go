@@ -165,7 +165,7 @@ func installBinary(location, platform string, res *http.Response) error {
 		if err != nil {
 			return err
 		}
-
+		// #nosec G204
 		_, err = io.Copy(out, r)
 		if err != nil {
 			return err
