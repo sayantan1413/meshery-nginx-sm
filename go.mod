@@ -12,5 +12,5 @@ require (
 	github.com/layer5io/meshkit v0.2.28
 	github.com/layer5io/service-mesh-performance v0.3.3
 	helm.sh/helm/v3 v3.6.3 // indirect
-	k8s.io/apimachinery v0.21.0
+	k8s.io/apimachinery v0.24.0
 )
